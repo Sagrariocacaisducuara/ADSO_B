@@ -1,4 +1,4 @@
-#se creo una bariable para crear una tupla y almacenar unos valoresdetro de ella
+#se crea una variable para crear una tupla y almacenar unos valores en  ella
 values = (1, 0)
 #x,y=19,30
 #print(divmod(10,3))
@@ -13,4 +13,5 @@ try:
     print(f'r={r}')
 ##se ejecutara cuando el bloque try falle debido a un error
 except (ZeroDivisionError, TypeError) as e:
+##imprime los argumentos que se encuentren dentro de los parentecis y comillas
     print(type(e), e)
